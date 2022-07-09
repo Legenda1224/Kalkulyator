@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background:linear-gradient(to top, rgba(78, 80, 216, 0.911), rgb(51, 27, 47));
+}
+
+button:focus {
+    outline: 0;
+}
+
+#calculator {
+  font-family: "Quicksand", sans-serif;
+  width: 330px;
+  background:linear-gradient(rgba(3, 120, 253, 0.911), rgb(83, 58, 194));
+}
+
+#screen {
+  height: 140px;
+  width: 330px;
+  background:linear-gradient(rgba(3, 120, 253, 0.911), rgb(83, 58, 194));
+  color: whitesmoke;
+  overflow: hidden;
+}
+
+#screen #calc {
+  padding-top: 30px;
+  font-size: 25px;
+}
+
+#screen #result {
+  font-size: 50px;
+}
+
+.value,
+.equals,
+.C,
+.CE {
+  cursor: pointer;
+  transition: 0.4s;
+  margin: 2px;
+  width: 75px;
+  height: 60px;
+  font-size: 30px;
+  background:linear-gradient(rgba(3, 120, 253, 0.911), rgb(83, 58, 194));
+  color: white;
+  border: none;
+}
+
+
+.value:hover,
+.equals:hover,
+.C:hover,
+.CE:hover {
+  transition: 0.4s;
+  font-size: 30px;
+  background:linear-gradient(rgba(184, 44, 153, 0.911), rgb(182, 62, 47));
+  color: whitesmoke;
+  border: none;
+}
